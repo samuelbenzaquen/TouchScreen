@@ -19,3 +19,8 @@
  - curl -O https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/pitft-fbcp.sh
  - sudo bash pitft-fbcp.sh 
  - sudo ~/RetroPie-Setup/retropie_setup.sh
+
+ # Website
+ 
+ - sudo nano /etc/X11/xorg.conf.d/99-calibration.confsu
+ - Option "TransformationMatrix" "0 -1 1 1 0 0 0 0 1"
